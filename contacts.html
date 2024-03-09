@@ -10,10 +10,18 @@
     <a href="./index.html" style="font-size: 30px;"><i class='bx bxs-home-alt-2'>Home</i></a>
     <div>
         <ul>
-            <li><a href="./contacts.html">Contacts</a></li>
-            <li><a href="./skills.html">Skills</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./resume.html">My Resume</a></li>
+            <li>
+                <a href="./contacts.html">Contacts</a>
+            </li>
+            <li>
+                <a href="./skills.html">Skills</a>
+            </li>
+            <li>
+                <a href="./projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="./resume.html">My Resume</a>
+            </li>
             
         </ul>
     </div>
@@ -21,15 +29,59 @@
     <h1>Contacts</h1>
     <hr>
     <ul>
-        <a href="https://web.facebook.com/hanzalahkhattak.khan" target="_blank"><i class='bx bxl-facebook-circle'>FaceBook</i></a>
+        <a href="https://web.facebook.com/hanzalahkhattak.khan" target="_blank">
+            <i class='bx bxl-facebook-circle'>FaceBook</i>
+        </a>
         <br><br>
-        <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'>Instagram</i></a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class='bx bxl-instagram-alt'>Instagram</i>
+        </a>
         <br><br>
-        <a href="https://www.linkedin.com/feed/" target="_blank"><i class='bx bxl-linkedin-square' >LinkedIn</i></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+            <i class='bx bxl-linkedin-square' >LinkedIn</i>
+        </a>
         <br><br> 
-        <a href="https://github.com/" target="_blank"><i class='bx bxl-github' >GitHub</i></a>
+        <a href="https://github.com/" target="_blank">
+            <i class='bx bxl-github' >GitHub</i>
+        </a>
         <br><br>
-        <a href="#"><i class='bx bxl-whatsapp-square'>321-9110257</i></a>
+        <a href="#">
+            <i class='bx bxl-whatsapp-square'>321-9110257</i>
+        </a>
     </ul>
+
+    <fieldset>
+        <legend><h1>Give FeedBack</h1></legend>
+        <form>
+            <label for="name">Name :</label>
+            <input type="text" placeholder="your name" required>
+            <br><br>
+            <label for="email">E-mail :</label>
+            <input type="email" placeholder="your e-mail@gmail.com" required>
+            <br><br>
+            <label for="phone">Phone :</label>
+            <input type="tel" placeholder="+92-345-987-098">
+            <br><br>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date">
+            <br><br>
+            <label for="gender">Gender :</label>
+            <select name="gender" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Gay</option>
+                <option>Transgender</option>
+            </select>
+            <br><br>
+            <label for="Upload">Upload your Picture :</label>
+            <input type="file">
+            <br><br>
+            <label>Is this Web Helpful?</label>
+            <input type="radio">Yes
+            <input type="radio">No 
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
 </body>
 </html>
