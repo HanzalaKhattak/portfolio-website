@@ -7,28 +7,28 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<!-- This is for navigation through different pages  -->
+<nav> 
     <a href="./index.html" style="font-size: 30px;"><i class='bx bxs-home-alt-2'>Home</i></a>
-    <div>
-        <ul>
-            <li>
-                <a href="./contacts.html">Contacts</a>
-            </li>
-            <li>
-                <a href="./skills.html">Skills</a>
-            </li>
-            <li>
-                <a href="./projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="./resume.html">My Resume</a>
-            </li>
-            
-        </ul>
-    </div>
+    <ul>
+        <li>
+            <a href="./skills.html">Skills</a>
+        </li>
+        <li>
+            <a href="./projects.html">Projects</a>
+        </li>
+        <li>
+            <a href="./resume.html">My Resume</a>
+        </li>    
+    </ul>
+</nav>
     <hr>
+<!-- This portion is for main -->
+<main>
     <h1>Contacts</h1>
     <hr>
-    <ul>
+    <span>
+        <ul>
         <a href="https://web.facebook.com/hanzalahkhattak.khan" target="_blank">
             <i class='bx bxl-facebook-circle'>FaceBook</i>
         </a>
@@ -48,11 +48,18 @@
         <a href="#">
             <i class='bx bxl-whatsapp-square'>321-9110257</i>
         </a>
-    </ul>
+        </ul>
+    </span>
+    <!-- URL shortner was not working at the moment -->
+    <span>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26455.71136325359!2d71.5104395946385!3d34.019137053719646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91653812a8fe5%3A0x97c11361b4f77af2!2sTehkal%20Payan%20I%2C%20Peshawar%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1710497700668!5m2!1sen!2s" width="350" height="350" style="border:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </span>
+</main>
+<!-- This portion is for a form -->
 
     <fieldset>
         <legend><h1>Give FeedBack</h1></legend>
-        <form>
+        <form><!-- this is a form -->
             <label for="name">Name :</label>
             <input type="text" placeholder="your name" required>
             <br><br>
