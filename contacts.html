@@ -5,61 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!-- This is for navigation through different pages  -->
-<nav> 
-    <a href="./index.html" style="font-size: 30px;"><i class='bx bxs-home-alt-2'>Home</i></a>
-    <ul>
-        <li>
-            <a href="./skills.html">Skills</a>
-        </li>
-        <li>
-            <a href="./projects.html">Projects</a>
-        </li>
-        <li>
-            <a href="./resume.html">My Resume</a>
-        </li>    
-    </ul>
+<nav class="navbar"> 
+    <button>
+        <a href="./index.html">
+            <i class='bx bxs-home-alt-2'>Home</i>
+        </a>
+    </button>
+    <button>
+        <a href="./skills.html">Skills</a>
+    </button>
+    <button>
+        <a href="./projects.html">Projects</a>
+    </button>
+    <button>
+        <a href="./resume.html">My Resume</a>
+    </button>
 </nav>
-    <hr>
+
 <!-- This portion is for main -->
-<main>
+<main class="main">
     <h1>Contacts</h1>
     <hr>
+    <br><br>
     <span>
         <ul>
-        <a href="https://web.facebook.com/hanzalahkhattak.khan" target="_blank">
-            <i class='bx bxl-facebook-circle'>FaceBook</i>
-        </a>
+            <a id="contacts" href="https://web.facebook.com/hanzalahkhattak.khan" target="_blank">
+                <i class='bx bxl-facebook-circle'>&nbsp FaceBook</i>
+            </a>
         <br><br>
-        <a href="https://www.instagram.com/" target="_blank">
-            <i class='bx bxl-instagram-alt'>Instagram</i>
-        </a>
+            <a id="contacts" href="https://www.instagram.com/" target="_blank">
+                <i class='bx bxl-instagram-alt'>&nbsp Instagram</i>
+            </a>
         <br><br>
-        <a href="https://www.linkedin.com/feed/" target="_blank">
-            <i class='bx bxl-linkedin-square' >LinkedIn</i>
-        </a>
+            <a id="contacts" href="https://www.linkedin.com/feed/" target="_blank">
+                <i class='bx bxl-linkedin-square' >&nbsp LinkedIn</i>
+            </a>
         <br><br> 
-        <a href="https://github.com/" target="_blank">
-            <i class='bx bxl-github' >GitHub</i>
-        </a>
+            <a id="contacts" href="https://github.com/" target="_blank">
+                <i class='bx bxl-github' >&nbsp GitHub</i>
+            </a>
         <br><br>
-        <a href="#">
-            <i class='bx bxl-whatsapp-square'>321-9110257</i>
-        </a>
+            <a id="contacts" href="#">
+                <i class='bx bxl-whatsapp-square'>&nbsp 321-9110257</i>
+            </a>
         </ul>
     </span>
+    <br><br>
+    <hr>
     <!-- URL shortner was not working at the moment -->
-    <span>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26455.71136325359!2d71.5104395946385!3d34.019137053719646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91653812a8fe5%3A0x97c11361b4f77af2!2sTehkal%20Payan%20I%2C%20Peshawar%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1710497700668!5m2!1sen!2s" width="350" height="350" style="border:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h1 id="mylocation">My Location</h1>
+    <span class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26455.71136325359!2d71.5104395946385!3d34.019137053719646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91653812a8fe5%3A0x97c11361b4f77af2!2sTehkal%20Payan%20I%2C%20Peshawar%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1710497700668!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </span>
 </main>
 <!-- This portion is for a form -->
 
     <fieldset>
-        <legend><h1>Give FeedBack</h1></legend>
-        <form><!-- this is a form -->
+        <legend>
+            <h1>Give FeedBack</h1>
+        </legend>
+        <!-- this is a form -->
+        <form class="feedback-form">
             <label for="name">Name :</label>
             <input type="text" placeholder="your name" required>
             <br><br>

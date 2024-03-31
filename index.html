@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
     <style>
         table,tr,td,th{
             border: 1px solid black;
@@ -25,41 +26,49 @@
 </head>
 <body>
     <!-- This is for navigation through different pages  -->
-    <nav> 
-    <i class='bx bxs-home-alt-2'>Home</i>
-        <ul>
-            <li>
-                <a href="./contacts.html">Contacts</a>
-            </li>
-            <li>
-                <a href="./skills.html">Skills</a>
-            </li>
-            <li>
-                <a href="./projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="./resume.html">My Resume</a>
-            </li>
-        </ul>
-    </nav>    
-    <hr>
+    <nav class="navbar"> 
+        <i class='bx bxs-home-alt-2'>Home</i>
+        <button>
+            <a href="./contacts.html">Contacts</a>
+        </button>
+
+        <button>
+            <a href="./skills.html">Skills</a>
+        </button>
+
+        <button>
+            <a href="./projects.html">Projects</a>
+        </button>
+
+        <button>
+            <a href="./resume.html">My Resume</a>
+        </button>
+    </nav> 
+    
     <br>
     <!-- This portion is for main header -->
-<header>
-    <img src="./images/image1.jpeg" alt="My img" style="height: 130px; width: 130px;">
-    <h1>Muhammad Hanzala Dawood</h1>
-    <!-- audio added -->
-    <audio src="./audio/Rick-Roll-Sound-Effect.mp3" controls loop></audio>
+<header class="index-header">
+    <center class="forimg">
+        <img src="./images/image1.jpeg" >
+    </center>
+    <div class="audio-name">
+        <h1>Hello</h1>
+        <h1>My name is Muhammad Hanzala Dawood <img id="speaker-icon" src="./icons/volume-full-solid-24.png" alt="speaker-icon"></h1>
+    </div>
     <hr>
-    <h2>About</h2>
-    <p>Student @UOP | Frontend Web and App Developer | Member of GDSCUOP | @Saylani Mass IT Training Program
+    <div class="about">
+        <h1>About</h1>
+        <br>
+        <p>Student @UOP | Frontend Web and App Developer | Member of GDSCUOP | @Saylani Mass IT Training Program
     </p>
+    </div>
     <hr>
 </header>
     <!-- This portion is for main     -->
-    <main>
-    <h2>My Education </h2>
-        <table>
+<main class="main">
+    <h1>My Education </h1>
+    <div class="for-table">
+        <table class="table">
             <thead>
                 <tr>
                     <th>LEVEL</th>
@@ -81,18 +90,19 @@
                     <td>FSc</td>
                     <td>Oxbridge College</td>
                     <td>917</td>
-                    <td>83</td>
+                    <td>83%</td>
                     <td>2022</td>
                 </tr>
                 <tr>
                     <td>BSCS</td>
                     <td>University of Peshawar</td>
-                    <td>3.47 CGPA</td>
+                    <td>3.53 CGPA</td>
                     <td>-</td>
                     <td>Continued</td>
                 </tr>
             </tbody>
         </table>
+    </div>
 </main>
 </body>
 </html>

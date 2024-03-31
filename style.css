@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF ;
+    background-color: #333;
+}
+
+nav {
+    /* margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%; */
+    padding: 2% 1% 2% 1%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+nav i {
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+nav button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+nav button a {
+    font-size: larger;
+    text-transform: none;
+    background-color: #333;
+    text-decoration: none;
+}
+.forimg {
+    padding: 2% 4% 2% 4%;
+}
+.forimg img {
+    height: 130px;
+    width: 130px;
+    padding: 1%; 
+    background-color: white; 
+    border-radius: 50%;
+}
+
+.audio-name {
+    margin-bottom: 2%;
+}
+#speaker-icon {
+    color: #FFFFFF;
+}
+
+.about {
+    margin: 2% 0% 2% 0%;
+}
+
+.main {
+    margin: 2% 0% 2% 0%;
+}
+.main h1 {
+    margin-bottom: 2%;
+}
+.for-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    border: 5px solid white;
+    width: 80%;
+    justify-content: center;
+}
+th, td {
+    border: 5px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+p,th,td {
+    font-size: large;
+}
+/* this code is for contacts.html */
+/* bullsshit */
+a i{
+    font-size: larger;
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#contacts i {
+    font-size: larger;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mylocation {
+    margin-top: 2%;
+}
+.map > iframe {
+    border: 2%;
+    padding: 2%;
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 350px;
+}
+.feedback-form {
+    font-size: larger;
+}
+
+.feedback-form input {
+    padding: 8px 15px 8px 15px;
+    border-radius: 15px;
+}
