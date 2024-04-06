@@ -5,11 +5,16 @@
     background-color: #333;
 }
 
+hr {
+    align-items: center;
+    width: 100%;
+}
+
 nav {
-    /* margin-top: 2%;
+    margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 1%;
-    margin-right: 1%; */
+    margin-right: 1%;
     padding: 2% 1% 2% 1%;
     display: flex;
     justify-content:space-between;
@@ -51,17 +56,12 @@ nav button a {
 .audio-name {
     margin-bottom: 2%;
 }
-#speaker-icon {
-    color: #FFFFFF;
-}
 
-.about {
+
+.about , .main {
     margin: 2% 0% 2% 0%;
 }
 
-.main {
-    margin: 2% 0% 2% 0%;
-}
 .main h1 {
     margin-bottom: 2%;
 }
@@ -76,7 +76,7 @@ nav button a {
     width: 80%;
     justify-content: center;
 }
-th, td {
+thead, tbody, th, td {
     border: 5px solid white;
     padding: 5px;
     text-align: center;
@@ -115,9 +115,82 @@ a i{
 }
 .feedback-form {
     font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.feedback-form input {
+.feedback-form > #fbform-div{
+    background-color: #626060;
+    padding: 4% 8% 4% 8%;
+    margin-left: 3%;
+}
+
+.feedback-form > #fbform-div > input, label, select {
     padding: 8px 15px 8px 15px;
     border-radius: 15px;
+    border-color:#FFFFFF;
+    outline: #FFFFFF;
+    background-color: transparent;
 }
+
+.feedback-form > #fbform-div > #btn {
+    display: grid;
+    place-items: center;
+    background-color: transparent;
+}
+
+.feedback-form > #fbform-div > #btn > button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    border-color:#FFFFFF;
+    outline: #FFFFFF;
+}
+
+/* This code is for Projects.html  */
+/* blah blah blah */
+
+#project1-video {
+    border: 2%;
+    padding: 2%;
+    background-color: #0c0b0b;
+    height: 350px;
+    width: 350px;
+}
+
+/* This code is for Skills.html  */
+/* blah blah blah */
+
+.skills-icons > img {
+    width: 30px;
+}
+
+.skills-icons > label {
+    font-size: large;
+}
+
+/* this codde is for resume.html */
+/* blah blah blah */
+
+.resume-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-div > #resume-btn {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#056aee;
+}
+
+.resume-div > #resume-btn > a {
+    font-size: larger;
+    text-transform: none;
+    background-color: #056aee;
+    text-decoration: none;
+
+}
+
+
